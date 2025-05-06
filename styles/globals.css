@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bg-intro-desktop{
+  background-image: url('../public/bg-intro-desktop.png');
+}
+.bg-intro-mobile{
+  background-image: url('../public/bg-intro-mobile.png');
+} */
+
+/* html,
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+@font-face {
+  font-family: "ADELIA";
+  src: url("../public/fonts/poppins.otf");
+}
+.is-invalid {
+    border-color: #dc3545;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: url("../public/error-icon.svg");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(1em + 0.750rem) calc(1em + 0.750rem);
+}
